@@ -1,0 +1,53 @@
+.ba-hero {
+  height: 100vh;
+  background-color: #fdde7e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ba-hero-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ba-hero-cup_wrapper {
+  height: 440px;
+  text-align: center;
+  background-color: #fff;
+  padding: 40px 0 35px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.ba-hero-cup_gold {
+  height: 500px;
+  padding: 50px 0 55px 0;
+}
+.ba-hero__price {
+  font-family: "Miso-Bold";
+  font-size: 4.375rem;
+  font-weight: bold;
+  line-height: 4rem;
+  letter-spacing: 0.1094rem;
+  color: #02995b;
+  margin: 0;
+  padding-right: 5px;
+}
+.ba-hero__title {
+  font-family: "Miso";
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: #333333;
+  margin: 0;
+}
+.ba-hero__description {
+  font-family: "Miso";
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  letter-spacing: 0.0313rem;
+  color: #5d5d5d;
+  margin: 0;
+}
